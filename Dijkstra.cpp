@@ -221,7 +221,7 @@ int main()
     cout<<"\nEnter destination vertex : ";
     cin>>dest;
     cout<<"\n";
-    if(a.conected(src,dest))
+    if(!a.conected(src,dest))
       a.dijkstra(src,dest);
       else
       {
